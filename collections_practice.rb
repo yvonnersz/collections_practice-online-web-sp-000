@@ -40,3 +40,7 @@ end
 def sum_array(array)
   array.inject {|sum,integer| sum + integer}
 end
+
+def add_s(array)
+  [0,2].each_with_index.collect {|string| string + "s"}
+end
