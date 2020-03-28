@@ -42,5 +42,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  [0,2].each_with_index.collect {|string[0,2]| string << "s"}
+  array.reject do |string|
+    string[2]
+  end
 end
