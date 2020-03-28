@@ -12,9 +12,8 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.each do |string|
-    string.size.sort do |a,b|
-    a <=> b
+  array.sort do |a,b|
+    a.size <=> b.size
   end
 end
 
