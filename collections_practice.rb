@@ -13,7 +13,7 @@ end
 
 def sort_array_char_count(array)
   array.each do |string|
-    string_size.sort do |a,b|
+    string.sort do |a,b|
       a <=> b
     end
   end
