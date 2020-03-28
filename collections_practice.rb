@@ -33,8 +33,8 @@ end
 
 def find_a(array)
   array.each do |string|
-    if string.start_with?("a")
-      return string
+    a = string.start_with?("a") 
     end
+    a
   end
 end
